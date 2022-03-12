@@ -1,0 +1,18 @@
+#!/usr/bin/env ampl
+
+model dgp1.mod;
+#model dgp2.mod;
+#model dgp3.mod;
+#model dgp4.mod;
+
+data dist_graph.dat;
+#data rndgph.dat;
+
+option solver baron;
+option baron_options "outlev=1 epsr=1 prfreq=1e3 maxtime=60";
+
+#option solver snopt;
+
+solve;
+display x > dgp.rlz;
+
