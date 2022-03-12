@@ -23,7 +23,7 @@ LPsolver = "cplex"
 NLPsolver = "ipopt"
 #projmethod = "Barvinok"
 projmethod = "PCA"
-showplot = True
+showplot = False
 
 ################ FUNCTIONS ###################
 

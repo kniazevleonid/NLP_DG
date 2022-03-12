@@ -146,7 +146,7 @@ def Barvinok(B, K):
     return x
 
 ################### MAIN #####################
-
+"""
 t0 = time.time()
 
 ## read command line
@@ -272,3 +272,4 @@ if showplot:
 # prob.solve(solver=cp.SCS)
 # prob.solve(solver=cp.MOSEK)
 
+"""
